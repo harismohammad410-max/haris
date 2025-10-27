@@ -13,7 +13,7 @@ provider "azurerm" {
   subscription_id="3221f75f-406b-41cb-8e80-7dcf8c8aa499"
 }
 
-resource "azurerm_resource_group" "rg" {
-  name     = "rg-logicapp-private"
-  location = "East US"
+resource "azurerm_resource_group" "example" {
+  name     = "example"
+  location = "West Europe"
 }
